@@ -1,0 +1,13 @@
+AI Hwk 1 
+
+Programming P1
+
+public String p1(int k) {
+	StringBuilder sb = "";
+
+	for (int i = k; i > 0; i--) {
+		sb += factorial(k);
+	}
+
+	return sb.toString(); 
+}
