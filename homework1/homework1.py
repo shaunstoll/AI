@@ -124,7 +124,6 @@ def p5_d(x: dict) -> np.array:
     lettersToNum = {}
     num = 0
     for i in x:
-        print(i)
         lettersToNum.update({i : num})
         num += 1
 
@@ -199,23 +198,3 @@ if __name__ == '__main__':
     pq.push('orange')
     while not pq.is_empty():
         print(pq.pop())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
